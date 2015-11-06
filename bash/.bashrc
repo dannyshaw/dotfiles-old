@@ -71,8 +71,12 @@ alias s='cd $STORY_PATH'
 
 
 alias fixwlan='sudo iw dev wlan0 set power_save off'
+alias btfix='pactl load-module module-bluetooth-discover'
+
 export PROCESS_PATH='/home/danny/bm/process'
 
 
 
 PATH="$PATH:/home/danny/apps/flow/"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
